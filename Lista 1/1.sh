@@ -1,0 +1,1 @@
+echo 'uma frase motivacional fofinha =-)'
