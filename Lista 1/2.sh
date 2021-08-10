@@ -1,3 +1,5 @@
+#!/bin/bash
+
 read -p 'Digite o nome do 1º diretório: ' d1
 read -p 'Digite o nome do 2º diretório: ' d2
 read -p 'Digite o nome do 3º diretório: ' d3
