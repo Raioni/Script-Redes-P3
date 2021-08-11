@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "-----Substituição de Variáveis-----"
 echo "A substituição de variáveis é uma técnica do shell script"
 echo "usada para imprimir o conteúdo de uma variável"
