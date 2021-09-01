@@ -1,13 +1,14 @@
 #!/bin/bash
 
 read -p "Digite o nome do primeiro arquivo: " a1
-read -p "Digite o nome do segundo arquivo: " a2
 
 cat $a1 &>/dev/null
 if [ $? != 0 ]; then
   echo "erro: o arquivo $a1 não existe"
   exit
 fi
+
+read -p "Digite o nome do segundo arquivo: " a2
 
 cat $a2 &>/dev/null
 if [ $? != 0 ]; then
