@@ -51,7 +51,7 @@ function c() {
       echo "O arquivo digitado não existe, tente novamente."
       echo ""
     else
-      cat $arquivo | sed -E 's/\W|_//g'
+      cat $arquivo | sed -E 's/\W|_/~/g'
       echo ""
     fi
   fi
