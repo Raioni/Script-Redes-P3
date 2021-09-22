@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function maior() {
   maior=0
   num=$(cat $1)
